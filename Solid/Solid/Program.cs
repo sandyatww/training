@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Solid.Services;
+using System;
 
 namespace Solid
 {
@@ -6,7 +7,7 @@ namespace Solid
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           UserService.prinname();
         }
     }
 }
